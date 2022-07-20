@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <!--My class-->
+        <item android:id="@+id/nav_myclass"
+            android:icon="@drawable/myclass"
+            android:title="My Class"/>
+
+        <!--Classes-->
+        <item android:id="@+id/nav_classes"
+            android:icon="@drawable/addclass"
+            android:title="Classes"/>
+
+        <!--Join Class-->
+        <item android:id="@+id/nav_join_class"
+            android:icon="@drawable/join_class"
+            android:title="Join Class"/>
+
+
+        <!--Create Class-->
+        <item android:id="@+id/nav_create_class"
+            android:icon="@drawable/joinclass"
+            android:title="Create Class"/>
+
+
+
+        <item android:id="@+id/nav_create_assignment"
+            android:icon="@drawable/ic_assignment"
+            android:title="Add Assignment"/>
+
+    </group>
+    <item android:title="Contact">
+        <menu>
+
+            <!--FAQ-->
+            <item android:id="@+id/nav_FAQ"
+                android:icon="@drawable/faq"
+                android:title="FAQ"/>
+
+            <!--Contact-->
+            <item android:id="@+id/nav_contact"
+                android:icon="@drawable/contact"
+                android:title="Contact Us"/>
+
+
+        </menu>
+    </item>
+
+    <item android:title="User">
+        <menu>
+
+            <!--Sign Out-->
+            <item android:id="@+id/nav_signout"
+                android:icon="@drawable/sign_out"
+                android:title="Sign Out"/>
+
+        </menu>
+    </item>
+
+    
+
+</menu>

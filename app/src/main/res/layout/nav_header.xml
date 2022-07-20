@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#ffb700"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:padding="16dp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nav_logo"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:text="Class App"
+        android:textSize="22sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="A WRKC.Pvt Product"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "698531319710",
+    "project_id": "classsapp",
+    "storage_bucket": "classsapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698531319710:android:6dcccfd45489bdd84f108f",
+        "android_client_info": {
+          "package_name": "com.example.classsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "698531319710-3uds4fvcq1iuuj6ro37096g07qrl44oq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArClxE4HGRTyQ-gFxMSw5JDvL-a2TMgq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "698531319710-3uds4fvcq1iuuj6ro37096g07qrl44oq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

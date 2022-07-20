@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:elevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/teacher_your_assign_desc"
+            android:text="AssignmentDESC"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/img2"
+            android:layout_marginLeft="10dp"/>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/img2"
+            android:layout_below="@+id/teacher_your_assign_desc"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/teacher_your_assign_name"
+                android:text="Assignment 0"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"/>
+            s
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/teacher_your_assign_ClassCode"
+                android:text="CO135U"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"/>
+
+
+
+            <TextView
+                android:id="@+id/teacher_your_assign_classTeacherPhoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/teacher_your_assign_ClassCode"
+                android:layout_marginLeft="10dp"
+                android:text="Teacher ph"
+                android:textColor="#000"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

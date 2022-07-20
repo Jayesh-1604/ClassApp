@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/white"
+tools:context=".studentAssignmentSubmittion"
+android:id="@+id/drawer"
+tools:openDrawer="start">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/header">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffb700"
+        app:titleTextColor="@color/black"
+        app:title="Assignment Description" />
+
+    <Button
+        android:id="@+id/btn_goto_classes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#ffb700"
+        android:padding="6dp"
+        android:text="Back To Assignments"
+        android:onClick="submittion_assign_gotoclass"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        android:layout_below="@+id/toolbar"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_below="@id/btn_goto_classes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submittion_Assignment_Title"
+        android:text="Assignment Title :"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:layout_marginLeft="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submition_class_teacher_ph"
+        android:text="Teacher Ph Number"
+        android:textSize="25sp"
+        android:layout_below="@id/submittion_Assignment_Title"
+        android:textColor="#000"
+        android:layout_marginLeft="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submittion_assignment_classpasscode"
+        android:text="Class Pass Code"
+        android:textSize="25sp"
+        android:layout_below="@id/submition_class_teacher_ph"
+        android:textColor="#000"
+        android:layout_marginLeft="10dp"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submittion_Assignment_desc"
+        android:text="Assignement DESC"
+        android:textSize="25sp"
+        android:layout_below="@id/submittion_assignment_classpasscode"
+        android:textColor="#000"
+        android:layout_marginLeft="10dp"/>
+
+
+    <EditText
+        android:id="@+id/student_assign_sub_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="30dp"
+        android:hint="Enter Your Email Address"
+        android:layout_below="@id/submittion_Assignment_desc"
+         />
+
+
+    <Button
+        android:id="@+id/btn_submit_assignment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/student_assign_sub_email"
+        android:layout_centerHorizontal="true"
+        android:background="#ffb700"
+        android:padding="6dp"
+        android:text="Submit"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:onClick="suubmitAssignment"/>
+
+
+</RelativeLayout>
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+
